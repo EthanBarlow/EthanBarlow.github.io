@@ -1,3 +1,9 @@
+Ethan Barlow
+This website is based on a template created by @ajlkn. However, I tweaked it to my own needs and style.
+
+
+Below is the original text of the README.txt from the author of this website template.
+
 Hyperspace by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
