@@ -4,6 +4,10 @@
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
+	Color Scheme idea found on this site: https://designschool.canva.com/blog/website-color-schemes/
+	Using number 40 from the list 
+	
 */
 
 /* Reset */
@@ -1719,7 +1723,9 @@
 			position: relative;
 			padding-bottom: 0.35em;
 		}
-
+/*
+This may be the location where the background colors and shades are controlled
+*/
 			h1.major:after {
 				background-image: -moz-linear-gradient(to right, #0074D9, #39CCCC);
 				background-image: -webkit-linear-gradient(to right, #0074D9, #39CCCC);
@@ -1976,7 +1982,7 @@
 		button.special,
 		.button.special {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #414141 !important;
 		}
 
 			input[type="submit"].special:after,
@@ -2405,8 +2411,9 @@
 			display: none;
 		}
 
+/*here is another possible location for the color*/
 	select option {
-		background-color: #312450;
+		background-color: #414141;
 		color: #ffffff;
 	}
 
@@ -2482,7 +2489,7 @@
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #E77812;
 			content: '\f00c';
 		}
 
@@ -2552,26 +2559,26 @@
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #414141;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
 		}
-
+/*More colors!*/
 			.icon.major:before {
 				font-size: 1.25em;
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #056571/*5e42a6*/
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #2E8794;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #E77812;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
@@ -2579,7 +2586,7 @@
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #E77812;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3038,6 +3045,7 @@
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
+			/*Another possible location for color*/
 				background: rgba(49, 36, 80, 0.9);
 				content: '';
 				display: block;
@@ -3248,20 +3256,21 @@
 
 			}
 
+/*Color*/
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #414141;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #056571/*5e42a6*/;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #2E8794;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #964800/*#0E7E8E 092065*/;
 		}
 
 		.wrapper.style2-alt {
@@ -3269,11 +3278,15 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #E77812;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #0E7E8E/*#953d75*/;
+		}
+		
+		.wrapper.style4 {
+			background-color: #964800;
 		}
 
 		.wrapper.fullscreen {
@@ -3340,7 +3353,7 @@
 			-ms-transform: translateY(1em);
 			transform: translateY(1em);
 		}
-
+/* background colors and lines */
 		.wrapper.fade-down > .inner {
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
@@ -3380,7 +3393,8 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		/*Color*/
+		background-color: #056571/*#5e42a6*/;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3534,7 +3548,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #414141;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3770,15 +3784,16 @@
 				width: 100%;
 			}
 
+/*rest of colors*/
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #2E8794;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #056571/*5e42a6*/, #E77812);
+				background-image: -webkit-linear-gradient(to right, #056571/*5e42a6*/, #E77812);
+				background-image: -ms-linear-gradient(to right, #056571/*5e42a6*/, #E77812);
+				background-image: linear-gradient(to right, #056571/*5e42a6*/, #E77812);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3864,10 +3879,10 @@
 						line-height: inherit;
 						padding: 0;
 					}
-
+/*Color*/
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #E77812;
 						}
 
 		}
@@ -3883,12 +3898,27 @@
 /* Intro */
 
 	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		 /* The image used */
+    background-image: url("/images/background.jpg");
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+		
+		/*background-attachment: fixed;*/
+		/*where the background image is actually changed*/
+		/*background-image: url("/images/background.jpg");*/
+		/*background-position: top right;*/
+		/*background-repeat: no-repeat;*/
+		/*background-size: 100% 100%;*/
 	}
+	
+
 
 		#intro p {
 			font-size: 1.25em;
