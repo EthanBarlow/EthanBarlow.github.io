@@ -1325,6 +1325,11 @@
 				width: auto;
 			}
 
+	#deloitteImg {
+		background-color: black;
+		padding: 50px;
+	}
+
 /* Button */
 
 	input[type="button"],
